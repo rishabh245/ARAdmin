@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.rishabh.aradmin.activities.post.PostAdActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Enter Details"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Address"
+            android:layout_weight="3"
+            android:gravity="bottom"
+            android:background="@drawable/edittext_background"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            />
+
+    <EditText
+        android:id="@+id/et_lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Latitude of Address"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_background"
+        android:textSize="@dimen/text_size"
+        />
+
+    <EditText
+        android:id="@+id/et_lng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Longitude of Address"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittext_background"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        />
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Yearly Price in Rupees"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        />
+
+
+    <Button
+        android:id="@+id/bn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="center"
+        />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

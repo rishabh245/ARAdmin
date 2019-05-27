@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "446437061127",
+    "firebase_url": "https://aradmin-b687f.firebaseio.com",
+    "project_id": "aradmin-b687f",
+    "storage_bucket": "aradmin-b687f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446437061127:android:3f192005fc22f469",
+        "android_client_info": {
+          "package_name": "com.example.rishabh.aradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446437061127-eebk5gq4u7c4gt5lomssatrd9li4u3br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8WOIWr2J2noRpM6NJywZ89Kx1ZLhLJVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446437061127-eebk5gq4u7c4gt5lomssatrd9li4u3br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
